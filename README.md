@@ -1,1 +1,3 @@
-# ProjectAppDepp
+# ProjectAppDepp 
+OpenWeather
+Group 7 
