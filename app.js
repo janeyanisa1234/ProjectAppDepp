@@ -63,7 +63,7 @@ function convertCountryCode(country) {
 }
 
 function getWeather() {
-    const API_KEY = '64f60853740a1ee3ba20d0fb595c97d5'
+    const API_KEY = '26271a5ae613edc9e1f915f0a53738e5'
 
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${currCity}&appid=${API_KEY}&units=${units}`).then(res => res.json()).then(data => {
         console.log(data)
